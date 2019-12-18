@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="Background.js"></script>
+    <script src="Bullet.js"></script>
+    <script src="Player.js"></script>
+    <script src="App.js"></script>
+    <style>
+        #myGame {
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myGame" width="400" height="600"></canvas>
+    <script>
+        window.addEventListener("load", ()=> {
+            let app = new App();
+        });
+    </script>
+</body>
+</html>

@@ -34,13 +34,13 @@ class Bullet {
     render(ctx){
         if(!this.active) return;
         ctx.beginPath();
-        ctx.fillStyle = "#c35d2b";
+        ctx.fillStyle = "#f01616";
         ctx.arc(this.x, this.y, this.r + 2, 0, Math.PI * 2);
         ctx.closePath();
         ctx.fill();
 
         ctx.beginPath();
-        ctx.fillStyle = "#e17d39";
+        ctx.fillStyle = "#f8f860";
         ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
         ctx.closePath();
         ctx.fill();
